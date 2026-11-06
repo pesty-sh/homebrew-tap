@@ -25,10 +25,10 @@ Trust is stored on each Mac. Run it once:
 
 Offline QR generator. Source: [pesty-sh/qrbin](https://github.com/pesty-sh/qrbin).
 
-* `HOMEBREW_NO_AUTO_UPDATE=1 brew install --HEAD pesty-sh/tap/qrbin`
+* `HOMEBREW_NO_AUTO_UPDATE=1 brew install pesty-sh/tap/qrbin`
 * `qrbin --version`
 
-`--HEAD` builds the latest commit on `master`. The first install compiles with Homebrew's Rust. On an Intel Mac the command is `/usr/local/bin/qrbin`. On Apple silicon it is `/opt/homebrew/bin/qrbin`.
+That installs the tagged `0.1.9` tarball. `--HEAD` still builds the latest commit on `master`. The first install compiles with Homebrew's Rust. On an Intel Mac the command is `/usr/local/bin/qrbin`. On Apple silicon it is `/opt/homebrew/bin/qrbin`.
 
 A numbered install without `--HEAD` is described in [docs/release.md](docs/release.md).
 
