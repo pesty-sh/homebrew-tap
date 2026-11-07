@@ -32,6 +32,15 @@ That installs the tagged `0.1.9` tarball. `--HEAD` still builds the latest commi
 
 A numbered install without `--HEAD` is described in [docs/release.md](docs/release.md).
 
+## Install smashbin
+
+Offline image smasher. Source: [pesty-sh/smashbin](https://github.com/pesty-sh/smashbin).
+
+* `HOMEBREW_NO_AUTO_UPDATE=1 brew install pesty-sh/tap/smashbin`
+* `smashbin --version`
+
+That installs the tagged `0.1.4` tarball. `--HEAD` still builds the latest commit on `master`.
+
 ## Docs
 
 * [docs/editing.md](docs/editing.md) explains where a formula goes and how a change reaches `brew`.

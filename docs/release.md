@@ -8,7 +8,7 @@ The tag `0.1.8` already points at an older qrbin commit. Do not move it. The rel
 
 ## Cut the tag in the qrbin repo
 
-From `/Users/developers/Projects/rust/qrbin`, after `version` in `Cargo.toml` matches the new tag:
+From `/Users/developers/Projects/pesty-sh/rust/qrbin`, after `version` in `Cargo.toml` matches the new tag:
 
 * `git tag -a 0.1.9 -m "qrbin 0.1.9"`
 * `git push origin master`
