@@ -8,7 +8,7 @@ A desktop app shipped as a `.dmg`, `.pkg`, or `.zip` is a file in `Casks/`. Thos
 
 ## Change qrbin
 
-The formula Homebrew installs is `Formula/qrbin.rb` in this project. The copy at `packaging/homebrew/qrbin.rb` inside the qrbin source repo is not the file `brew` reads.
+The formula Homebrew installs is `Formula/qrbin.rb` in this project. The qrbin source repo does not keep another copy.
 
 * Edit `Formula/qrbin.rb`.
 * `git diff`
