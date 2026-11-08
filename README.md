@@ -39,7 +39,7 @@ Offline image smasher. Source: [pesty-sh/smashbin](https://github.com/pesty-sh/s
 * `HOMEBREW_NO_AUTO_UPDATE=1 brew install pesty-sh/tap/smashbin`
 * `smashbin --version`
 
-That installs the tagged `0.1.4` tarball. `--HEAD` still builds the latest commit on `master`.
+That installs the tagged `0.1.5` tarball. `--HEAD` still builds the latest commit on `master`.
 
 ## Docs
 

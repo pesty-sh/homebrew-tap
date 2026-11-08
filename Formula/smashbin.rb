@@ -2,8 +2,8 @@ class Smashbin < Formula
   desc "Offline image smasher with no telemetry and no network access"
   homepage "https://pesty.sh"
   license "MIT"
-  url "https://github.com/pesty-sh/smashbin/archive/refs/tags/0.1.4.tar.gz"
-  sha256 "f54c86bb4653558aba52857db3779ca6c3f65222c9cc7082a8eeb9a11e80c8e7"
+  url "https://github.com/pesty-sh/smashbin/archive/refs/tags/0.1.5.tar.gz"
+  sha256 "14e6e7063f540ac69668ea70abe433834f4b0835967cfe07f7253078f9178c53"
   head "https://github.com/pesty-sh/smashbin.git", branch: "master"
 
   depends_on "rust" => :build
