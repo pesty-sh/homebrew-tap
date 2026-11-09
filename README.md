@@ -41,6 +41,17 @@ Offline image smasher. Source: [pesty-sh/smashbin](https://github.com/pesty-sh/s
 
 That installs the tagged `0.1.5` tarball. `--HEAD` still builds the latest commit on `master`.
 
+## Install rmbin
+
+Offline file and folder remover. Source: [pesty-sh/rmbin](https://github.com/pesty-sh/rmbin).
+
+* `HOMEBREW_NO_AUTO_UPDATE=1 brew install pesty-sh/tap/rmbin`
+* `rmbin --version`
+
+That installs the tagged `v0.0.1` source tarball and compiles it with Homebrew's Rust. There is no bottle. `--HEAD` still builds the latest commit on `main`.
+
+Deletion is permanent. Read the [disclaimer](https://github.com/pesty-sh/rmbin/blob/main/DISCLAIMER.md) before use.
+
 ## Docs
 
 * [docs/editing.md](docs/editing.md) explains where a formula goes and how a change reaches `brew`.
